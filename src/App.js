@@ -3,6 +3,7 @@ import Project_container from './components/project_container'
 import Header from './components/header'
 
 function App() {
+  document.title="Portfolio";
   return (
     <div className="App">
       <Header />

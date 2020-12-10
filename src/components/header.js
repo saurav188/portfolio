@@ -7,7 +7,7 @@ function Header() {
         <h1 className="name">Saurav Thakur</h1>
         <div className="btns">
           <div className="resume"><a href="#">Resume</a></div>
-          <div className="github"><a href="#">Github</a></div>
+          <div className="github"><a href="https://github.com/saurav188">Github</a></div>
         </div>
     </div>
   );
