@@ -1,0 +1,218 @@
+* {
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  height: 35vh;
+  padding: 150px 10% 100px 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: white;
+  -webkit-animation: header_start 2500ms;
+          animation: header_start 2500ms;
+}
+
+.header .welcome {
+  margin: 2.5px 0px 0px 0px;
+}
+
+.header .name {
+  margin: 0px 0px 5px 0px;
+}
+
+.header .btns {
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header .btns .resume {
+  margin: 0px 70px;
+  padding: 8px;
+  border-radius: 14px;
+  background-color: white;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.header .btns .resume:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.header .btns .resume a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.header .btns .github {
+  margin: 0px 70px;
+  padding: 8px;
+  border-radius: 14px;
+  background-color: white;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.header .btns .github:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.header .btns .github a {
+  text-decoration: none;
+  color: black;
+  margin: 20px;
+  font-weight: bolder;
+}
+
+.project_container {
+  margin: 0px 10%;
+  padding: 7.5% 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: gray;
+}
+
+.project_container .project {
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+  margin: 10px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 0px solid transparent;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition-duration: 450ms;
+          transition-duration: 450ms;
+}
+
+.project_container .project:hover {
+  -webkit-transform: scale(1.03125);
+          transform: scale(1.03125);
+  -webkit-transition-duration: 450ms;
+          transition-duration: 450ms;
+  -webkit-box-shadow: 8px 8px 20px black;
+          box-shadow: 8px 8px 20px black;
+}
+
+.project_container .project a {
+  text-decoration: none;
+  color: black;
+}
+
+.project_container .project a .img_container {
+  width: 400px;
+  height: auto;
+}
+
+.project_container .project a .img_container img {
+  width: 100%;
+  height: suto;
+}
+
+.project_container .project a .description_container {
+  text-align: center;
+  width: 100%;
+  padding: 0px 10% 10px 10%;
+  background-color: lightgray;
+  -webkit-box-shadow: 0px -40px 30px lightgray;
+          box-shadow: 0px -40px 30px lightgray;
+}
+
+.project_container .project a .project_title {
+  margin-bottom: 5px;
+}
+
+.project_container .project a .project_description {
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+.project_container .project a .language_used {
+  margin-top: 5px;
+}
+
+@-webkit-keyframes header_start {
+  0% {
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    padding: 35% 10%;
+  }
+  100% {
+    height: 35vh;
+    padding: 150px 10% 100px 10%;
+  }
+}
+
+@keyframes header_start {
+  0% {
+    height: 100vh;
+    width: 100%;
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    padding: 35% 10%;
+  }
+  100% {
+    height: 35vh;
+    padding: 150px 10% 100px 10%;
+  }
+}
+/*# sourceMappingURL=App.css.map */
