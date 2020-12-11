@@ -10,7 +10,7 @@ body {
 
 .header {
   height: 45vh;
-  padding: 150px 10% 100px 10%;
+  padding: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,7 +193,7 @@ body {
   }
   100% {
     height: 45vh;
-    padding: 150px 10% 100px 10%;
+    padding: 10%;
   }
 }
 
@@ -208,7 +208,7 @@ body {
   }
   100% {
     height: 45vh;
-    padding: 150px 10% 100px 10%;
+    padding: 10%;
   }
 }
 /*# sourceMappingURL=App.css.map */

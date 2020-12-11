@@ -43,7 +43,7 @@ function Project_container() {
             CRUD functionality
           " 
           link='https://frozen-savannah-33670.herokuapp.com/'
-          language='Python, Django, JavaScript, HTML/SCSS'
+          language='Python, Django, JavaScript, ReactJS, HTML/SCSS'
         />
         <Project 
           title="Relax Sound" 
@@ -63,7 +63,7 @@ function Project_container() {
             Potraits my skill to put a design to an actual webpage
           " 
           link='https://apple-home-page-duplicate.herokuapp.com/'
-          language='HTML?SCSS,JavaScript'
+          language='HTML/SCSS,JavaScript'
         />
       </div>
     );
