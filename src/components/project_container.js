@@ -19,6 +19,7 @@ function Project_container() {
             Breadth First Search(BFS)
           " 
           link='https://path-algo-visualiser.herokuapp.com/'
+          language='JavaScript, ReactJS, HTML/SCSS '
         />
         <Project 
           title="Django E-commerce Website" 
@@ -32,6 +33,7 @@ function Project_container() {
             Reviewing Products
           " 
           link='https://django-shop-app.herokuapp.com/'
+          language='Python, Django, JavaScript, HTML/SCSS'
         />
         <Project 
           title="Todo App" 
@@ -41,6 +43,7 @@ function Project_container() {
             CRUD functionality
           " 
           link='https://frozen-savannah-33670.herokuapp.com/'
+          language='Python, Django, JavaScript, HTML/SCSS'
         />
         <Project 
           title="Relax Sound" 
@@ -50,6 +53,7 @@ function Project_container() {
             loops the same sound over and over to optimize memory requirements 
           " 
           link='https://relaxsound.herokuapp.com/'
+          language='JavaScript, HTML/SCSS'
         />
         <Project 
           title="Apple Home page Duplicate" 
@@ -59,6 +63,7 @@ function Project_container() {
             Potraits my skill to put a design to an actual webpage
           " 
           link='https://apple-home-page-duplicate.herokuapp.com/'
+          language='HTML?SCSS,JavaScript'
         />
       </div>
     );

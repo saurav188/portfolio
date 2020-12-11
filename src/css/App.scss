@@ -8,7 +8,7 @@ body{
 }
 
 .header{
-    height: 35vh;
+    height: 45vh;
     padding:150px 10% 100px 10%;
     display: flex;
     flex-direction: column;
@@ -17,14 +17,11 @@ body{
     background-color: black;
     color:white;
     animation: header_start 2500ms;
-    .welcome{
-        margin:2.5px 0px 0px 0px;
-    }
     .name{
         margin:0px 0px 5px 0px;
     }
     .btns{
-        margin:20px 0px;
+        margin:10px 0px;
         display: flex;
         flex-direction: row;
         .resume{
@@ -134,7 +131,7 @@ body{
         padding: 35% 10%;
     }
     100%{
-        height: 35vh;
+        height: 45vh;
         padding:150px 10% 100px 10%;
     }
 }

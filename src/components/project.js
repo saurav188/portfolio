@@ -15,7 +15,7 @@ function Project(props) {
             {props.description}
           </div>
           <div className="language_used">
-            language used
+            {props.language}
           </div>
         </div>
       </a>
