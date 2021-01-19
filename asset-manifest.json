@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c006fa96.chunk.css",
-    "main.js": "/portfolio/static/js/main.a9b022f6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a9b022f6.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.6893d0cd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.6893d0cd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.5fdca036.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.5fdca036.js.map",
     "static/js/2.0fbf9cc4.chunk.js": "/portfolio/static/js/2.0fbf9cc4.chunk.js",
@@ -15,13 +15,13 @@
     "static/media/apple-home-page.2c7e21a6.jpg": "/portfolio/static/media/apple-home-page.2c7e21a6.jpg",
     "static/media/django-shop.265bad9d.jpg": "/portfolio/static/media/django-shop.265bad9d.jpg",
     "static/media/path_finding.7ccca468.jpg": "/portfolio/static/media/path_finding.7ccca468.jpg",
-    "static/media/relax-sound.dd62bc8f.jpg": "/portfolio/static/media/relax-sound.dd62bc8f.jpg",
-    "static/media/todo-app.59957e29.jpg": "/portfolio/static/media/todo-app.59957e29.jpg"
+    "static/media/relax-sound.e4601520.jpg": "/portfolio/static/media/relax-sound.e4601520.jpg",
+    "static/media/todo-app.9165ad90.jpg": "/portfolio/static/media/todo-app.9165ad90.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5fdca036.js",
     "static/js/2.0fbf9cc4.chunk.js",
     "static/css/main.c006fa96.chunk.css",
-    "static/js/main.a9b022f6.chunk.js"
+    "static/js/main.6893d0cd.chunk.js"
   ]
 }
