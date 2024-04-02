@@ -1,15 +1,44 @@
-import '../css/App.css';
+import React from "react";
+import '../styles/Header.css';
+import MenuBar from "../components/MenuBar";
+import react_icon from '../images/react_icon.svg'
+import js_icon from '../images/js_icon.svg'
+import html_icon from '../images/html_icon.svg'
+import css_icon from '../images/css_icon.svg'
+import json_icon from '../images/json_icon.svg'
+
 
 function Header() {
-  return (
-    <div className="header">
-        <div className="welcome"><h1>Welcome,</h1></div>
-        <h1 className="name">Saurav Thakur</h1>
-        <div className="btns">
-          <div className="resume"><a href="https://drive.google.com/file/d/18tiExMfwK1Cq6BK9xc3c5DOc4jkOi6IR/view">Resume</a></div>
-          <div className="github"><a href="https://github.com/saurav188">Github</a></div>
-        </div>
-    </div>
+  return ( 
+    <header className="header-container">
+      <nav className="nav-container">
+        <MenuBar 
+          icon={ react_icon }
+          name='home.jsx'
+          path="/"
+        /> 
+        <MenuBar 
+          icon={ html_icon }
+          name='about.html'
+          path="/about"
+        />
+        <MenuBar 
+          icon={ js_icon }
+          name='projects.js'
+          path="/projects"
+        />
+        <MenuBar 
+          icon={ json_icon }
+          name='experience.json'
+          path="/expirience"
+        /> 
+        <MenuBar 
+          icon={ css_icon }
+          name='contact.css'
+          path="/contact"
+        /> 
+      </nav>
+    </header>
   );
 }
 
