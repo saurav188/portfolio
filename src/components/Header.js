@@ -6,6 +6,7 @@ import js_icon from '../images/js_icon.svg'
 import html_icon from '../images/html_icon.svg'
 import css_icon from '../images/css_icon.svg'
 import json_icon from '../images/json_icon.svg'
+import python_icon from '../images/python-5.svg'
 
 
 function Header() {
@@ -21,6 +22,11 @@ function Header() {
           icon={ html_icon }
           name='about.html'
           path="/about"
+        />
+        <MenuBar 
+          icon={ python_icon }
+          name='education.py'
+          path="/education"
         />
         <MenuBar 
           icon={ js_icon }

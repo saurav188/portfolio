@@ -32,7 +32,6 @@ function About() {
                 <p className="text-about">
                   <span className="span-highlight">Python and  Javascript developer </span>
                   who has hands-on experience working in a software company as a Python System Engineer as well as a hands on experience working with 3 different international clients to build their system.
-
                 </p>
                 <p className="text-about last">
                   Ms Skills are: <span className="span-highlight">Html, CSS, JavaScript, Python, Django, Odoo, React, Git/Github.</span>

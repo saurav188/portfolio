@@ -18,7 +18,7 @@ function Contact() {
           <main className="main-wrapper contact">
             <div className="title-container">
               <h1 className="title-contact">Saurav Thakur 🤔</h1>
-              <h2 className="message-contact">"Alone we can do so little, together we can do so much." – Helen Keller</h2>
+              <h2 className="message-contact">“First, solve the problem. Then, write the code.” – John Johnson</h2>
             </div>
             <div className="list-contact">
               <p className="class-name line">.contacts<span className="element">{' {'}</span></p>
