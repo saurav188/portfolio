@@ -37,7 +37,7 @@ function Home() {
               </a>
             </div>
             <img 
-              src='ramon-salinero-vEE00Hx5d0Q-unsplash.jpg' alt="Saurav Thakur an OK human" 
+              src={require('../images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg')} alt="Saurav Thakur an OK human" 
               className="image-perfil"
             />
           </main>

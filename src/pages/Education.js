@@ -40,7 +40,7 @@ function Education() {
 
             </div>
             <img 
-              src='degree.png' alt="degree icon" 
+              src={require('../images/degree.png')} alt="degree icon" 
               className="image-perfil"
             />
         </main>

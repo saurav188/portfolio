@@ -1,1 +1,7 @@
 
+.expirience{
+    overflow-y: scroll;
+    flex-direction: column;
+    margin-top: 7.5%;
+    padding: 2.5%;
+}
