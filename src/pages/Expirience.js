@@ -19,7 +19,7 @@ function Expirience() {
       <section className="main-container">
         <Header />
         <MenuMobile />
-        <main className="main-wrapper recommendation">
+        <main className="main-wrapper expirience">
           <h1 className="title-recommendation">My Work Experience</h1>
           <VerticalTimeline>
             {experience.map( data => <VerticalElement data={data} />)}
@@ -46,7 +46,7 @@ const VerticalElement = ({ data }) => {
     <span style={{color:"darkpink"}}>{"{"}</span><br />
       &emsp;<span style={{color:"rgb(33, 150, 243)"}}>position:</span> <span style={{color:"brown"}}>"{data.position}"</span><br />
       &emsp;<span style={{color:"rgb(33, 150, 243)"}}>company:</span> <span style={{color:"brown"}}>"{data.company}"</span><br />
-      &emsp;<span style={{color:"rgb(33, 150, 243)"}}>description</span> <span style={{color:"brown"}}>"{data.description}"</span><br />
+      &emsp;<span style={{color:"rgb(33, 150, 243)"}}>description:</span> <span style={{color:"brown"}}>"{data.description}"</span><br />
       &emsp;<span style={{color:"rgb(33, 150, 243)"}}>date:</span> <span style={{color:"brown"}}>"{`${data.start.getFullYear()}-${(data.start.getMonth()+1)} to ${data.end ? data.end.getFullYear() + '-' + (data.end.getMonth()+1) : "present"}`}"</span><br />
     <span style={{color:"darkpink"}}>{"}"}</span>
   </VerticalTimelineElement>

@@ -18,7 +18,7 @@ function Home() {
         <section className="main-container">
           <Header />
           <MenuMobile />
-          <main className="main-wrapper home">
+          <main className="main-wrapper home" style={{backgroundColor:"#131313"}}>
             <div className="home-content">
               <p><span className="span">{'<'}</span>Hi, I am</p>
               <h1>Saurav Thakur <span className="span">{'/>'}</span> </h1>
@@ -37,7 +37,7 @@ function Home() {
               </a>
             </div>
             <img 
-              src={image} alt="Saurav Thakur an OK human" 
+              src={require('../images/ramon-salinero-vEE00Hx5d0Q-unsplash.jpg')} alt="Saurav Thakur an OK human" 
               className="image-perfil"
             />
           </main>

@@ -24,3 +24,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.education{
+  flex-direction: column;
+  align-items: start !important;
+  justify-content: start;
+  padding: 10% 10%;
+  color:white;
+
+}
+.python-class-name{
+  color:#A2AC85;
+}

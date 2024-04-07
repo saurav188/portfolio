@@ -9,6 +9,7 @@ import Recommendation from './pages/Recommendation';
 
 import AppProvider from './context/AppProvider';
 import Expirience from './pages/Expirience';
+import Education from './pages/Education';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={ <Contact /> } />
         <Route path="/recommendation" element={ <Recommendation /> } />
         <Route path="/expirience" element={ <Expirience /> } />
+        <Route path="/education" element={ <Education /> } />
       </Routes>
     </AppProvider>
   );
