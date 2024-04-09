@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/Header.css';
-import MenuBar from "./MenuBar";
+import MenuBar from "../components/MenuBar";
 import react_icon from '../images/react_icon.svg'
 import js_icon from '../images/js_icon.svg'
 import html_icon from '../images/html_icon.svg'
