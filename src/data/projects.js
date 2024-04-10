@@ -2,11 +2,11 @@ const projects = [
   {
     type: 'all', 
     name: 'LED System for farmer deatil digitalization', 
-    description: 'This is a system i was a part of in Shangrilla Microsystems designed for the empowering of the farmer of Nepal to be able to sell their products in the online market.', 
+    description: "This is a system i was a part of in Shangrilla Infomatics designed digitizing farmer's data of Nepal to be able to sell their products online.", 
     src: 'led_preview.png', 
     repository: '#', 
     site: 'http://led.chulachulimun.gov.np:8069/ne_NP', 
-    technologies: ['Odoo', 'Python', 'JavaScript', 'CSS3', 'HTML5' , ' XML'],
+    technologies: ['Odoo', 'Python', 'JavaScript'],
   },
   {
     type: 'all', 
@@ -38,11 +38,11 @@ const projects = [
   {
     type: 'front', 
     name: 'Path Finding Algorithm Visualiser', 
-    description: 'A Frontend React App that visualises following algorithms: Breadth First Search(BFS), Genetic Algorithm, A* Algorithm, Dijkstras Algorithm, Maze generating algorithm', 
+    description: 'A Frontend React App that visualises following algorithms:BFS, Genetic Algorithm, A* Algorithm, Dijkstras Algorithm', 
     src: 'path_algo.png', 
     repository: 'https://github.com/saurav188/path_algo_visualiser', 
     site: 'https://saurav188.github.io/path_algo_visualiser/', 
-    technologies: ['React','CSS3', 'HTML5', 'JavaScript'],
+    technologies: ['React', 'JavaScript'],
   },
 ];
 
