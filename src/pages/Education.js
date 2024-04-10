@@ -13,7 +13,7 @@ import { MdWorkHistory } from "react-icons/md";
 
 function Education() {
   return ( 
-    <body>
+    <>
     <TitleBar />
     <section className="flex-container">
       <section className="main-container">
@@ -48,7 +48,7 @@ function Education() {
       <SideBar /> 
     </section>
     <Footer />
-  </body>
+  </>
   );
 }
 

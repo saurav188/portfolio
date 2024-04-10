@@ -10,7 +10,7 @@ import "../styles/Recommendation.css"
 
 function Projects() {
   return ( 
-    <body>
+    <>
     <TitleBar />
     <section className="flex-container">
       <section className="main-container">
@@ -31,7 +31,7 @@ function Projects() {
       <SideBar />
     </section>
     <Footer />
-  </body>
+  </>
   );
 }
 

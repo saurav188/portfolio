@@ -13,7 +13,7 @@ import { MdWorkHistory } from "react-icons/md";
 
 function Expirience() {
   return ( 
-    <body>
+    <>
     <TitleBar />
     <section className="flex-container">
       <section className="main-container">
@@ -30,7 +30,7 @@ function Expirience() {
       <SideBar />
     </section>
     <Footer />
-  </body>
+  </>
   );
 }
 

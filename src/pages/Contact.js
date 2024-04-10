@@ -9,7 +9,7 @@ import contacts from "../data/contacts";
 
 function Contact() {
   return ( 
-    <body>
+    <>
       <TitleBar />
       <section className="flex-container">
         <section className="main-container">
@@ -36,7 +36,7 @@ function Contact() {
         <SideBar />
       </section>
       <Footer />
-    </body>
+    </>
   );
 }
 
