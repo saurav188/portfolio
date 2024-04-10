@@ -51,7 +51,7 @@ function Projects() {
             {filterProjects().map(({type, name, src, repository, description, site, technologies }, index) => (
               <div key={index} className="card-project">
                 <div className="img-container">
-                  <img src={require("../images/"+src)} alt="Project Image" className="img-project"/>
+                  <img src={src} alt="Project" className="img-project"/>
                 </div>
                 <h2 className="title-project">{name}</h2>
                 <p>{description}</p>
