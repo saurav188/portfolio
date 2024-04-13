@@ -29,6 +29,8 @@
   align-items: center;
   overflow-x: hidden;
   overflow-y: hidden;
+  flex-wrap: wrap-reverse;
+  padding: 10% 10%;
 }
 
 h1 {

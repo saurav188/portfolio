@@ -37,7 +37,6 @@ function Education() {
                     &emsp;&emsp;From = <span style={{color:"#CA8F79"}}>"Texas International College"</span><br />
                     {/* &emsp;&emsp;GPA &nbsp;= <span className="span-highlight">3.9</span> */}
                 </p>
-
             </div>
             <img 
               src={require('../images/degree.png')} alt="degree icon" 
